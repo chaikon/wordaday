@@ -15,6 +15,17 @@
 		CD59156A1C78280F000DF5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5915681C78280F000DF5F0 /* LaunchScreen.storyboard */; };
 		CD5915751C78280F000DF5F0 /* wordadayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5915741C78280F000DF5F0 /* wordadayTests.m */; };
 		CD5915801C78280F000DF5F0 /* wordadayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD59157F1C78280F000DF5F0 /* wordadayUITests.m */; };
+		CD59158E1C784EF3000DF5F0 /* vocab.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD59158D1C784EF3000DF5F0 /* vocab.plist */; };
+		CD5915D21C7860FA000DF5F0 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5915D11C7860FA000DF5F0 /* QuizViewController.m */; };
+		CD5915D51C786132000DF5F0 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5915D41C786132000DF5F0 /* TableViewController.m */; };
+		CD5915D81C78D2DF000DF5F0 /* TimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5915D71C78D2DF000DF5F0 /* TimeTableViewController.m */; };
+		CDF1F5311C78D3C9009F6F57 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF1F5301C78D3C9009F6F57 /* clock.png */; };
+		CDF1F5351C78D45B009F6F57 /* clock60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF1F5341C78D45B009F6F57 /* clock60@2x.png */; };
+		CDF1F5371C78D4D0009F6F57 /* Alarm Clock-50 (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF1F5361C78D4D0009F6F57 /* Alarm Clock-50 (1)@2x.png */; };
+		CDF1F5391C78D572009F6F57 /* Translation-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF1F5381C78D572009F6F57 /* Translation-50@2x.png */; };
+		CDF1F53B1C78F0CE009F6F57 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF1F53A1C78F0CE009F6F57 /* add@2x.png */; };
+		CDF1F53D1C7941C3009F6F57 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF1F53C1C7941C3009F6F57 /* EventKit.framework */; };
+		CDF1F5401C79E1F7009F6F57 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1F53F1C79E1F7009F6F57 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,21 @@
 		CD59157B1C78280F000DF5F0 /* wordadayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordadayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD59157F1C78280F000DF5F0 /* wordadayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordadayUITests.m; sourceTree = "<group>"; };
 		CD5915811C78280F000DF5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD59158D1C784EF3000DF5F0 /* vocab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vocab.plist; sourceTree = "<group>"; };
+		CD5915D01C7860FA000DF5F0 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		CD5915D11C7860FA000DF5F0 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		CD5915D31C786132000DF5F0 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CD5915D41C786132000DF5F0 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CD5915D61C78D2DF000DF5F0 /* TimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableViewController.h; sourceTree = "<group>"; };
+		CD5915D71C78D2DF000DF5F0 /* TimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTableViewController.m; sourceTree = "<group>"; };
+		CDF1F5301C78D3C9009F6F57 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		CDF1F5341C78D45B009F6F57 /* clock60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock60@2x.png"; sourceTree = "<group>"; };
+		CDF1F5361C78D4D0009F6F57 /* Alarm Clock-50 (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm Clock-50 (1)@2x.png"; sourceTree = "<group>"; };
+		CDF1F5381C78D572009F6F57 /* Translation-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Translation-50@2x.png"; sourceTree = "<group>"; };
+		CDF1F53A1C78F0CE009F6F57 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		CDF1F53C1C7941C3009F6F57 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CDF1F53E1C79E1F7009F6F57 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		CDF1F53F1C79E1F7009F6F57 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF1F53D1C7941C3009F6F57 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 		CD59154E1C78280F000DF5F0 = {
 			isa = PBXGroup;
 			children = (
+				CDF1F53C1C7941C3009F6F57 /* EventKit.framework */,
 				CD5915591C78280F000DF5F0 /* wordaday */,
 				CD5915731C78280F000DF5F0 /* wordadayTests */,
 				CD59157E1C78280F000DF5F0 /* wordadayUITests */,
@@ -106,6 +134,20 @@
 				CD5915601C78280F000DF5F0 /* ViewController.h */,
 				CD5915611C78280F000DF5F0 /* ViewController.m */,
 				CD5915631C78280F000DF5F0 /* Main.storyboard */,
+				CDF1F53E1C79E1F7009F6F57 /* AddViewController.h */,
+				CDF1F53F1C79E1F7009F6F57 /* AddViewController.m */,
+				CD5915D61C78D2DF000DF5F0 /* TimeTableViewController.h */,
+				CD5915D71C78D2DF000DF5F0 /* TimeTableViewController.m */,
+				CD5915D31C786132000DF5F0 /* TableViewController.h */,
+				CD5915D41C786132000DF5F0 /* TableViewController.m */,
+				CD5915D01C7860FA000DF5F0 /* QuizViewController.h */,
+				CD5915D11C7860FA000DF5F0 /* QuizViewController.m */,
+				CD59158D1C784EF3000DF5F0 /* vocab.plist */,
+				CDF1F5301C78D3C9009F6F57 /* clock.png */,
+				CDF1F5381C78D572009F6F57 /* Translation-50@2x.png */,
+				CDF1F5341C78D45B009F6F57 /* clock60@2x.png */,
+				CDF1F53A1C78F0CE009F6F57 /* add@2x.png */,
+				CDF1F5361C78D4D0009F6F57 /* Alarm Clock-50 (1)@2x.png */,
 				CD5915661C78280F000DF5F0 /* Assets.xcassets */,
 				CD5915681C78280F000DF5F0 /* LaunchScreen.storyboard */,
 				CD59156B1C78280F000DF5F0 /* Info.plist */,
@@ -246,9 +288,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD59158E1C784EF3000DF5F0 /* vocab.plist in Resources */,
+				CDF1F5351C78D45B009F6F57 /* clock60@2x.png in Resources */,
+				CDF1F5311C78D3C9009F6F57 /* clock.png in Resources */,
 				CD59156A1C78280F000DF5F0 /* LaunchScreen.storyboard in Resources */,
 				CD5915671C78280F000DF5F0 /* Assets.xcassets in Resources */,
+				CDF1F5371C78D4D0009F6F57 /* Alarm Clock-50 (1)@2x.png in Resources */,
+				CDF1F5391C78D572009F6F57 /* Translation-50@2x.png in Resources */,
 				CD5915651C78280F000DF5F0 /* Main.storyboard in Resources */,
+				CDF1F53B1C78F0CE009F6F57 /* add@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +324,10 @@
 				CD5915621C78280F000DF5F0 /* ViewController.m in Sources */,
 				CD59155F1C78280F000DF5F0 /* AppDelegate.m in Sources */,
 				CD59155C1C78280F000DF5F0 /* main.m in Sources */,
+				CDF1F5401C79E1F7009F6F57 /* AddViewController.m in Sources */,
+				CD5915D51C786132000DF5F0 /* TableViewController.m in Sources */,
+				CD5915D81C78D2DF000DF5F0 /* TimeTableViewController.m in Sources */,
+				CD5915D21C7860FA000DF5F0 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wordaday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaikon.wordaday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wordaday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaikon.wordaday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +553,7 @@
 				CD5915861C78280F000DF5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5915871C78280F000DF5F0 /* Build configuration list for PBXNativeTarget "wordadayTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +562,7 @@
 				CD5915891C78280F000DF5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD59158A1C78280F000DF5F0 /* Build configuration list for PBXNativeTarget "wordadayUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +571,7 @@
 				CD59158C1C78280F000DF5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

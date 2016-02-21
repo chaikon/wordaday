@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Sunday</string>
+		<key>answer</key>
+		<string>日曜日</string>
+		<key>wrong</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Pain</string>
+		<key>answer</key>
+		<string>Bread</string>
+		<key>wrong</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Ausgang</string>
+		<key>answer</key>
+		<string>Exit</string>
+		<key>wrong</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Food</string>
+		<key>answer</key>
+		<string>食べ物</string>
+		<key>wrong</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Prime Minister of Canada from 1963 to 1968</string>
+		<key>answer</key>
+		<string>Lester Pearson</string>
+		<key>wrong</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

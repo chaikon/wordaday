@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
 
 @interface ViewController : UIViewController
 
-
+- (IBAction)demonstration:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *quizButton;
+@property (weak, nonatomic) IBOutlet UILabel *MainLabel;
 @end
 
