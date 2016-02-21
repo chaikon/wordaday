@@ -73,6 +73,10 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)submit:(id)sender {
+    
+    [defl setObject:[NSDate dateWithTimeIntervalSinceNow:86400] forKey:@"quiztime"];
+    
+    
     if ([self.ans.text isEqualToString:[vocDicQ objectForKey:@"answer"]]){
         
         UIAlertView *alertv = [[UIAlertView alloc] initWithTitle:@"Congrats"
@@ -93,6 +97,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
                                                otherButtonTitles:nil];
         [alertv show];
     }
+    
     
 }
 @end
